@@ -1,0 +1,30 @@
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+-- Add any additional autocmds here
+--
+-- local grp = vim.api.nvim_create_augroup("lsp_document_format", { clear = true })
+-- local autocmd = vim.api.nvim_create_autocmd
+--
+-- autocmd({ "BufWritePre" }, {
+--   pattern = {
+--     "*.js",
+--     "*.jsx",
+--     "*.mjs",
+--     "*.ts",
+--     "*.tsx",
+--     "*.css",
+--     "*.less",
+--     "*.scss",
+--     "*.json",
+--     "*.graphql",
+--     "*.md",
+--     "*.vue",
+--     "*.svelte",
+--     "*.yaml",
+--     "*.html",
+--   },
+--   callback = function()
+--     vim.cmd("PrettierAsync")
+--   end,
+--   group = grp,
+-- })
